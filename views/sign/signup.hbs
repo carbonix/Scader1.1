@@ -1,0 +1,26 @@
+
+<div class="form-structor">
+        
+    <form action="/signup" method="POST">
+        
+        <div class="signup">
+            
+            <h2 class="form-title" id="signup">Sign up</h2>
+            {{> messages }}
+            <div class="form-holder">
+                
+                <input type="text" class="input" name="uname" placeholder="Name"/>
+                <input type="email" class="input" name="email" placeholder="Email" />
+                <input type="password" class="input" name="upass" placeholder="Password" />
+                <input type="password" class="input" name="upass2" placeholder="Type Password again" />
+                <input type="text" class="input" name="phone" placeholder="Phone Number" />
+            </div>
+            <button class="submit-btn">Sign up</button>
+            <a href="/login"><h2 id="signup" >login</h2></a>
+        </div>
+    </form>    
+       
+</div>
+
+
+<script src="/javascripts/regis.js" ></script>
