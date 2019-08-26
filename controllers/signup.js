@@ -1,6 +1,6 @@
 var User = require('../models/user');
 var mongoose = require('mongoose');
-var bcrypt = require('bcryptjs');
+var bcrypt = require('bcrypt');
 
 
 exports.signup = function(req, res, next){
